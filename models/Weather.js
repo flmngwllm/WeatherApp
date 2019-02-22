@@ -3,9 +3,9 @@ const Schema = mongoose.Schema
 
 const Weather = new Schema({
     city: String,
-    Celsius: Number,
+    celsius: Number,
     Day: String,
-    Farenheit: Number
+    farenheit: Number
 
 })
 
