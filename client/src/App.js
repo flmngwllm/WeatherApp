@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <p>Hello</p>
+        
         <Router>
           <Switch>
             <Route exact path="/weather" component={Weather} />
